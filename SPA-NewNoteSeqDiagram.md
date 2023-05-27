@@ -21,4 +21,5 @@ sequenceDiagram
     s-->>b: Status code 201 (The request has been fulfilled and has resulted in one or more new resources being created.)
     Note right of b: the server does not ask for a redirect, the browser stays on the same page, and it sends no further HTTP requests.
     deactivate s
+    end
 ```
