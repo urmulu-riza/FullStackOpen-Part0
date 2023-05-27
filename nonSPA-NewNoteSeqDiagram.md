@@ -4,9 +4,9 @@ sequenceDiagram
     participant s as Server
 
     b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note (Sending form input to the Server)
-    activate s
+    <!-- activate s -->
     s-->>b: HTTP status code 302: Asking for a URL redirect
-    deactivate s
+    <!-- deactivate s -->
 <!--
     b->>s: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate s
