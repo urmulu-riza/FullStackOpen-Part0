@@ -19,7 +19,8 @@ sequenceDiagram
     b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate s
 
-    Note right of b: the new note is sent as JSON data containing both the content of the note (content) and the timestamp (date). The Content-Type header of the request tells the server that the included data is represented in JSON format.
+    Note right of b: the new note is sent as JSON data containing both the content of the note (content) and the timestamp (date).
+    Note right of b: The Content-Type header of the request tells the server that the included data is represented in JSON format.
     s-->>b: Status code 201 (The request has been fulfilled and has resulted in one or more new resources being created.)
     Note right of b: the server does not ask for a redirect, the browser stays on the same page, and it sends no further HTTP requests.
     deactivate s
