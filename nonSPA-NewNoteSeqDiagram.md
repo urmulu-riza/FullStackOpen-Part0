@@ -1,8 +1,10 @@
 ```mermaid
 sequenceDiagram
+    Actor r as Riza
     participant b as Browser
     participant s as Server
 
+        r->>b: Click Submit
         b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note (Sending form input to the Server)
     activate s
     s-->>b: HTTP status code 302: Asking for a URL redirect
