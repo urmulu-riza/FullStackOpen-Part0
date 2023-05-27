@@ -7,7 +7,7 @@ sequenceDiagram
     activate s
     s-->>b: HTTP status code 302: Asking for a URL redirect
     deactivate s
-
+<!--
     b->>s: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate s
     s-->>b: HTML document
@@ -30,6 +30,6 @@ sequenceDiagram
     s-->>b: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate s
 
-    Note right of b: The browser executes the callback function that renders the notes
+    Note right of b: The browser executes the callback function that renders the notes -->
 
 ```
