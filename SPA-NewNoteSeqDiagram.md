@@ -1,4 +1,4 @@
-# H1 Submitting a note in the modern SPA notes application
+# Submitting a note in the modern SPA notes application
 
 URL: https://studies.cs.helsinki.fi/exampleapp/spa
 

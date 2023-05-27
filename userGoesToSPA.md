@@ -1,4 +1,4 @@
-# H1 Loading a SPA containing JavaScript script to render notes
+# Loading a SPA containing JavaScript script to render notes
 
 URL: https://studies.cs.helsinki.fi/exampleapp/spa
 
