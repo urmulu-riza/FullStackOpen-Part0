@@ -1,11 +1,14 @@
+Title Submitting a note in the traditional nonSPA notes application
+URL https://studies.cs.helsinki.fi/exampleapp/notes
+
 ```mermaid
 sequenceDiagram
-    Actor r as Riza
+    Actor r as Riza (Me, The User!)
     participant b as Browser
     participant s as Server
 
-        r->>b: Click Submit
-        b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note (Sending form input to the Server)
+    r->>b: Click Submit
+    b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note (Sending form input to the Server)
     activate s
     s-->>b: HTTP status code 302: Asking for a URL redirect
     deactivate s

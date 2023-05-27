@@ -1,3 +1,6 @@
+Title Loading a SPA containing JavaScript script to render notes
+URL https://studies.cs.helsinki.fi/exampleapp/spa
+
 ```mermaid
 sequenceDiagram
     participant b as Browser
@@ -10,12 +13,12 @@ sequenceDiagram
 
     b->>s: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate s
-    s-->>b: the css file
+    s-->>b: The css file | Status code 200
     deactivate s
 
     b->>s: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
     activate s
-    s-->>b: the JavaScript file
+    s-->>b: The JavaScript file | Status code 200
     deactivate s
 
     Note right of b: The browser starts executing the JavaScript code that fetches the JSON from the server
