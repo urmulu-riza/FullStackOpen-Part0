@@ -1,4 +1,4 @@
-#H1 Submitting a note in the traditional nonSPA notes application
+# H1 Submitting a note in the traditional nonSPA notes application
 
 URL: https://studies.cs.helsinki.fi/exampleapp/notes
 
