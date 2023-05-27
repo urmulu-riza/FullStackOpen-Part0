@@ -7,7 +7,7 @@ sequenceDiagram
     Actor r as Riza (Me, The User!)
     participant b as Browser
     participant s as Server
-
+    autonumber
     r->>b: Click Submit
     b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note (Sending form input to the Server)
     activate s
