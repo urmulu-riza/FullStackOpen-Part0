@@ -1,5 +1,6 @@
-Title Submitting a note in the traditional nonSPA notes application
-URL https://studies.cs.helsinki.fi/exampleapp/notes
+#H1 Submitting a note in the traditional nonSPA notes application
+
+URL: https://studies.cs.helsinki.fi/exampleapp/notes
 
 ```mermaid
 sequenceDiagram

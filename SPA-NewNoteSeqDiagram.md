@@ -1,5 +1,6 @@
-Title Submitting a note in the modern SPA notes application
-URL https://studies.cs.helsinki.fi/exampleapp/spa
+#H1 Submitting a note in the modern SPA notes application
+
+URL: https://studies.cs.helsinki.fi/exampleapp/spa
 
 ```mermaid
 sequenceDiagram
@@ -21,7 +22,8 @@ sequenceDiagram
 
     Note right of b: the note sent as JSON containing: content of the note + timestamp.  Content-Type header= application/JSON
     s-->>b: Status code 201 (The request has been fulfilled and has resulted in one or more new resources being created.)
+     deactivate s
     Note right of b: the server does not ask for a redirect, the browser stays on the same page, and it sends no further HTTP requests.
-    deactivate s
+
     end
 ```
