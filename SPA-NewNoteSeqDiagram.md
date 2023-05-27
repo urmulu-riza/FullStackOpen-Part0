@@ -14,6 +14,8 @@ sequenceDiagram
     b->>b: Rerender the note list on the page and clear the note input
     end
 
+
+    rect rgb(200, 150, 255)
     b->>s: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate s
 
