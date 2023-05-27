@@ -4,9 +4,11 @@ URL: https://studies.cs.helsinki.fi/exampleapp/spa
 
 ```mermaid
 sequenceDiagram
+
     participant b as Browser
     participant s as Server
 
+    autonumber
     b->>s: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate s
     s-->>b: HTML document | Status code 200
