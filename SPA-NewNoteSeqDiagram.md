@@ -10,9 +10,9 @@ sequenceDiagram
 
     r->>b: Click Submit
     rect rgb(191, 223, 255)
-    b->>b: Creates a new note
+    b->>b: Creates a new note & clears the input
     b->>b: Adds the note to the notes list
-    b->>b: Rerenders the note list on the page and clear the note input
+    b->>b: Rerenders the note list on the page
     end
 
 
